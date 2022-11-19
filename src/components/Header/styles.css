@@ -1,0 +1,29 @@
+.link-color{
+    color: #E0E6F8;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 5px 7px;
+}
+
+.link-color:hover{
+    background-color: #E0E6F8;
+    color: #045FB4;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.RightSide{
+    font-size: 1.1rem;
+    color: #E0E6F8;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px 7px;
+}
+
+.RightSide:hover{
+    background-color: #E0E6F8;
+    color: #045FB4;
+    border-radius: 5px;
+    transition: .5s;
+}

@@ -1,0 +1,23 @@
+.schedulePage-container{
+    padding-top: 80px;
+    background-image: url(https://landing.shopper.com.br/img/eda073f5d7e6ebd9b97261a85254f4ff.png);
+    background-size: contain;
+    background-position: -10%;
+    min-height: 100vh;
+}
+
+.center{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.title{
+    color: #1F1F1F;
+}
+
+.subTitle{
+    color: #1F1F1F;
+    font-size: 12px;
+    margin-top: -10px;
+}

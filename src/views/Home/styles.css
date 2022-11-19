@@ -1,0 +1,15 @@
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.center .date{
+    margin-top: 20px;
+}
+
+.center .hour{
+    margin-top: 20px;
+}
+
