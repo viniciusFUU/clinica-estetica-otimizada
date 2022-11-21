@@ -86,7 +86,7 @@ function Home() {
           <h2 className={classes.cusTitle}> Registrar uma consulta</h2>
           <p className={classes.cusSubTitle}>
             {" "}
-            Visualize e gerencie as consultas agendadas.
+            Insira todos os dados e agende consultas.
           </p>
           <Divider />
           <div className="center">

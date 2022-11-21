@@ -36,7 +36,8 @@ const NewQuery = () => {
         <Container maxWidth="lg" className="schedulePage-container">
           <div className="center">
             <h2 className="title"> Horários Disponíveis</h2>
-            <p className="subTitle"> Visualizar Horários Disponíveis.</p>
+            <p className="subTitle"> Selecione a data e encontre os horários Disponíveis do dia.</p>
+            <Divider />
             <TextField
               type="date"
               className="date"
@@ -45,20 +46,17 @@ const NewQuery = () => {
               value={date}
               onChange={(e) => setDate(e.target.value)}
             />
-            <Divider />
             <table>
-              <thead>
-                <tr>
-                  <td></td>
-                  <td>Horário disponivel</td>
+              <thead className="thead-container">
+                <tr className="tr-container">
+                  <td className="list1">Horário disponivel</td>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="tbody-container">
                 {patients.map((row) => {
                   return (
                     <tr>
-                      <td></td>
-                      <td>{row.hour}</td>
+                      <td className="list2">{row.hour}</td>
                     </tr>
                   );
                 })}

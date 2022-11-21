@@ -14,9 +14,4 @@ export const LeftSide = styled.div`
     display: flex;
     align-items: center;
     padding-left: 10px;
-
-    img {
-        width: 130px;
-        height: 60px
-    }
 `

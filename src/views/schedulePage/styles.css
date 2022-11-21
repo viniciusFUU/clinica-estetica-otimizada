@@ -21,3 +21,35 @@
     font-size: 12px;
     margin-top: -10px;
 }
+
+table{
+    margin-top: 15px;
+}
+
+.tr-container, .list1{
+    border: 1px solid #1F1F1F;
+    border-radius: 5px;
+    padding: 10px;
+    color: #1436f7;
+}
+
+.tbody-container, .list2{
+    border-bottom: 1px solid #1F1F1F;
+    border-radius: 5px;
+    color: #1436f7;
+    padding: 15px 15px 0 15px ;
+}
+
+button{
+    padding: 7px 10px 5px 10px;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+button:hover{
+    color: white;
+    background-color: red;
+    transition: .3s;
+}

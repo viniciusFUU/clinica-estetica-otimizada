@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Container from "@material-ui/core/Container";
 import { Divider } from "@material-ui/core";
-import "./styles.css";
+import "../schedulePage/styles.css";
 
 const SchedulePage = () => {
     const patients = [
@@ -34,23 +34,24 @@ const SchedulePage = () => {
         <Container maxWidth="lg" className="schedulePage-container">
           <div className="center">
             <h2 className="title"> Visualizar consultas</h2>
-            <p className="subTitle"> Visualizar consultar.</p>
+            <p className="subTitle"> Área para visualizar e excluir consultas.</p>
             <Divider />
             <table>
-                <thead>
-                    <tr>
-                        <td>Nome do Paciente</td>
-                        <td>Dia da Consulta</td>
-                        <td>Hora da Consulta</td>
+                <thead className="thead-container">
+                    <tr className="tr-container">
+                        <td className="list1">Nome do Paciente</td>
+                        <td className="list1">Dia da Consulta</td>
+                        <td className="list1">Hora da Consulta</td>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className="tbody-container">
                     {patients.map(row => {
                         return(
                             <tr>
-                                <td>{row.name}</td>
-                                <td>{row.day}</td>
-                                <td>{row.hour}</td>
+                                <td className="list2">{row.name}</td>
+                                <td className="list2">{row.day}</td>
+                                <td className="list2">{row.hour}</td>
+                                <button type="submite">X</button>
                             </tr>
                         )
                     })}

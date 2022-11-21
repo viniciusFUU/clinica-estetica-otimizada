@@ -13,9 +13,6 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 
-//Assets
-import logo from '../../assets/images/logo.png'
-
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
